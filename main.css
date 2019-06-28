@@ -7,7 +7,7 @@
 body {
     height: 100vh;
     display: flex;
-    background: navy;
+    background: #D9BAB5;
 }
 
 .memoryGame {
@@ -41,10 +41,9 @@ body {
 .front-face,.back-face {
     width: 100%;
     height: 100%;
-    padding: 10px;
     position: absolute;
     border-radius: 5px;
-    background: lightcoral;
+    background:	#ABAFA0;
     backface-visibility: hidden;
 }
 
@@ -54,5 +53,5 @@ body {
 
 img {
     width: 100px;
-    border: 2px solid black;
+    border: 2px solid #1F1F24;
 }
