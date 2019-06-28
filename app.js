@@ -1,4 +1,5 @@
 const cards = document.querySelectorAll('.memoryCard');
+const newGame = document.getElementById('reset');
 
 let hasFlippedCard = false;
 let lockBoard = false;
@@ -64,3 +65,8 @@ function resetBoard() {
 })();
 
 cards.forEach(card => card.addEventListener('click', flipCard));
+
+
+newGame.addEventListener('click', function(){
+    location.reload();
+});
