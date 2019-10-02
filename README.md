@@ -28,3 +28,31 @@ We want to recreate the game `memory`. It is a game where  you have a bunch of c
 ![mzmoey](https://github.com/YelenaMerzlyakova/Memory/blob/master/memory.png)
 
 ## Code
+
+Here I am checking whether the cards match. If they match they are disabled and if not they flip back.
+
+``` Javascript
+function checkForMatch() {
+    let isMatch = firstCard.dataset.framework ===
+    secondCard.dataset.framework; 
+
+    isMatch ? disableCards() : unflipCards();
+}
+
+
+function disableCards() {
+    firstCard.removeEventListener('click', flipCard);
+    secondCard.removeEventListener('click', flipCard);
+
+    resetBoard();
+}
+
+function unflipCards() {
+    lockBoard = true;
+    setTimeout(() => {
+        firstCard.classList.remove('flip');
+        secondCard.classList.remove('flip');
+
+        resetBoard();
+    }, 1500);
+}
