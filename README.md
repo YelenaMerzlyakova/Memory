@@ -1,6 +1,6 @@
 # Memory game
 
-[Test your memory, are you any good?]()
+[Test your memory, are you any good?](https://yelenamerzlyakova.github.io/Memory/)
 
 ## Mission objectives
 - Change things in the DOM (Aka canvas = cheating)
@@ -25,6 +25,6 @@ We want to recreate the game `memory`. It is a game where  you have a bunch of c
 
 ## Result 
 
-![]()
+![mzmoey](https://github.com/YelenaMerzlyakova/Memory/blob/master/memory.png)
 
 ## Code
