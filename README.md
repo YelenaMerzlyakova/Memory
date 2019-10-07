@@ -1,6 +1,6 @@
 # Memory game
 
-[Test your memory, are you any good?](https://yelenamerzlyakova.github.io/Memory/)
+[Test your memory, are you any good?](https://yelenamerzlyakova.github.io/Memory) :smile_cat:
 
 ## Mission objectives
 - Change things in the DOM (Aka canvas = cheating)
